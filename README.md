@@ -17,8 +17,8 @@ Feature set and interactivity
  Download CSV of parsed data
  Extendable backend structure
 
-Ideal Applications:
-This tool is designed for:
+Ideal Applications
+This tool is designed for
 Educators & Students: Quickly parse and visualise satellite data for classroom demonstrations or academic projects.
 Aerospace Enthusiasts: Explore real-world satellite orbits and metadata without needing heavy software.
 Developers & Builders: A modular base to extend into orbit plotting, real-time tracking, or satellite analytics dashboards.
