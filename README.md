@@ -5,6 +5,7 @@ Design a small, efficient project that:
 Parses satellite TLE data (from file input)
 Provides a clean tabular and visual output
 Serves as a base layer for future enhancements
+
 Open-source by intent — collaborators welcome to refine:
 UI/UX design
 Backend data handling
