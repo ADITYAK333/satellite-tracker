@@ -1,23 +1,35 @@
-A lightweight, modular Streamlit app to parse and visualise satellite TLE (Two-Line Element) data. Built as a minimal yet functional prototype — open to UI, architecture, and feature evolution contributions.
+ Unified Space Explorer
+A real-time dashboard to visualize satellite and planetary data using  
+CelesTrak,  Skyfield, and  Le Systeme Solaire API.
 
-🎯 Project Aim
-Design a small, efficient project that:
-Parses satellite TLE data (from file input)
-Provides a clean tabular and visual output
-Serves as a base layer for future enhancements
+ Core Features
 
-Open-source by intent — collaborators welcome to refine:
-UI/UX design
-Backend data handling
-Feature set and interactivity
+ Satellite Tracker
+- Live position of up to 10000+ satellites
+- Real-time lat/lon/altitude
+- Interactive globe (Plotly)
+- Instant details 
 
- Features:
- Upload TLE text files
- Visualise satellite name metadata
- Download CSV of parsed data
- Extendable backend structure
+ Planetary Explorer
+- Data on planets, moons, dwarf planets
+- Mass, gravity, radius, orbit period (in yr/mo)
+- Real-time Earth-to-planet distance
+- Wikipedia summaries + flashcard view
 
-Ideal Applications::    
+ Performance
+- Threaded TLE fetch (faster load)
+- Satellite limit control (via UI)
+- Lazy loading for Wikipedia & heavy ops
+
+ Built With
+- Streamlit – Frontend framework
+- Skyfield – Real-time ephemeris + orbits
+- CelesTrak – Satellite TLE data
+- Le Systeme Solaire API – Planetary info
+- Plotly – Map visualizations
+- BeautifulSoup + Wikipedia – Body summaries
+  
+Ideal Applications:    
 This tool is designed for:    
 Educators & Students: Quickly parse and visualise satellite data for classroom demonstrations or academic projects.    
 Aerospace Enthusiasts: Explore real-world satellite orbits and metadata without needing heavy software.    
